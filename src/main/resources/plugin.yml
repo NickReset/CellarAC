@@ -1,0 +1,6 @@
+name: CellarAC
+version: '${project.version}'
+main: me.nickrest.cellar.Cellar
+api-version: 1.15
+depend:
+  - ProtocolLib
