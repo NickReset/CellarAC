@@ -4,7 +4,7 @@ import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.PacketContainer;
 
 public class WrapperStatusClientInStart extends AbstractPacket {
-    public static final PacketType TYPE = PacketType.Status.Client.IN_START;
+    public static final PacketType TYPE = PacketType.Status.Client.START;
     
     public WrapperStatusClientInStart() {
         super(new PacketContainer(TYPE), TYPE);
